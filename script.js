@@ -115,7 +115,14 @@ function scrollActive() {
 }
 function linkedin()
 {
-    window.location.href("www.linkedin.com/in/vijay-konidena-03a741269");
+    window.location.href="www.linkedin.com/in/vijay-konidena-03a741269";
 }
+
+  function open_insta(){
+    window.location.href="https://www.instagram.com/mr.bhargava__2004/?utm_source=qr&igshid=OGU0MmVlOWVjOQ%3D%3D";
+  }
+  function open_git(){
+    window.location.href="https://github.com/bhargava63";
+  }
 
 window.addEventListener('scroll', scrollActive)
