@@ -113,5 +113,9 @@ function scrollActive() {
     }
   })
 }
+function linkedin()
+{
+    window.location.href("www.linkedin.com/in/vijay-konidena-03a741269");
+}
 
 window.addEventListener('scroll', scrollActive)
