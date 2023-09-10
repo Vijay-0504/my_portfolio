@@ -8,6 +8,16 @@ function myMenuFunction(){
       menuBtn.className = "nav-menu";
     }
   }
+ 
+  function open_ln(){
+    window.location.href="www.linkedin.com/in/vijay-konidenavijay2003";
+  }
+  function open_insta(){
+    window.location.href="https://https://www.instagram.com/_vijay0504/;
+  }
+  function open_git(){
+    window.location.href="https://github.com/Vijay-0504";
+  }
 
 /* ----- ADD SHADOW ON NAVIGATION BAR WHILE SCROLLING ----- */
   window.onscroll = function() {headerShadow()};
@@ -33,7 +43,7 @@ function myMenuFunction(){
 
 /* ----- TYPING EFFECT ----- */
  let typingEffect = new Typed(".typedText",{
-    strings : ["Learner","Technophile","Developer"],
+    strings : ["Coder","Application developer","Thechie"],
     loop : true,
     typeSpeed : 100, 
     backSpeed : 80,
@@ -113,16 +123,5 @@ function scrollActive() {
     }
   })
 }
-function linkedin()
-{
-    window.location.href="www.linkedin.com/in/vijay-konidena-03a741269";
-}
-
-  function open_insta(){
-    window.location.href="https://www.instagram.com/mr.bhargava__2004/?utm_source=qr&igshid=OGU0MmVlOWVjOQ%3D%3D";
-  }
-  function open_git(){
-    window.location.href="https://github.com/bhargava63";
-  }
 
 window.addEventListener('scroll', scrollActive)
