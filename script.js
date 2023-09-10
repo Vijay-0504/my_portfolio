@@ -8,16 +8,6 @@ function myMenuFunction(){
       menuBtn.className = "nav-menu";
     }
   }
- 
-  function open_ln(){
-    window.location.href="www.linkedin.com/in/vijay-konidenavijay2003";
-  }
-  function open_insta(){
-    window.location.href="https://https://www.instagram.com/_vijay0504/;
-  }
-  function open_git(){
-    window.location.href="https://github.com/Vijay-0504";
-  }
 
 /* ----- ADD SHADOW ON NAVIGATION BAR WHILE SCROLLING ----- */
   window.onscroll = function() {headerShadow()};
@@ -43,7 +33,7 @@ function myMenuFunction(){
 
 /* ----- TYPING EFFECT ----- */
  let typingEffect = new Typed(".typedText",{
-    strings : ["Coder","Application developer","Thechie"],
+    strings : ["Designer","Youtuber","Developer"],
     loop : true,
     typeSpeed : 100, 
     backSpeed : 80,
